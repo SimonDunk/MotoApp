@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="Map" />
+        <item
+            android:id="@+id/nav_compass"
+            android:icon="@drawable/ic_compass"
+            android:title="Compass Navigation" />
+        <item
+            android:id="@+id/nav_twisties"
+            android:icon="@drawable/ic_twisties"
+            android:title="Find Twisties" />
+        <item
+            android:id="@+id/nav_navigation"
+            android:icon="@drawable/ic_navigation"
+            android:title="Basic Navigation" />
+        <item
+            android:id="@+id/nav_petrol"
+            android:icon="@drawable/ic_servo"
+            android:title="Petrol Stations" />
+        <item
+            android:id="@+id/nav_fuelup"
+            android:icon="@drawable/ic_servo"
+            android:title="Add Fuel Up" />
+        <item
+            android:id="@+id/nav_speedo"
+            android:icon="@drawable/ic_speedo"
+            android:title="Speedo" />
+
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@drawable/ic_motorcycle"
+            android:title="Motorcycle Statistics" />
+        <item
+            android:id="@+id/nav_motorcycle"
+            android:icon="@drawable/ic_motorcycle"
+            android:title="Manage Motorcycle/s" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+</menu>
